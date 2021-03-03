@@ -16,3 +16,15 @@ asort($datos);
 foreach ($datos as $c => $v) {
 $suma += $c;	
 }
+if($v == 1)
+{
+echo ("<h3>No hay un numero que se repita</h3>");
+}
+else
+{
+echo ("<h3>El numero que mas se repite es : $c  y se repite :   $v   veces</h3>");
+}
+$resta= $c * $v;
+$total = ($suma - $resta);
+echo "La suma de los números sin incluir el que más se repite es : ".$total;
+?>
