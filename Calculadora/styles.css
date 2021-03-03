@@ -1,0 +1,68 @@
+*{
+padding: 0;
+margin: 0;
+}
+.contenedor
+{
+width: 750px;
+height: 400px;
+
+margin: 100px 300px;
+
+}
+.formulario
+{
+margin: 20px 120px;
+background: white;
+}
+#numero1,#numero2
+{
+width: 234px;
+height: 40px;
+margin-left: 10px;
+}
+legend
+{
+width: 90px;
+color: white;
+background: rgb(137, 101, 194);
+border-radius: 30%;
+}
+fieldset
+{
+width: 480px;
+margin-left: 10px;
+border:1px solid rgb(137, 101, 194);
+
+}
+.input-cont
+{
+margin-left: 30px;
+}
+#calcular
+{
+width: 481px;
+height: 50px;
+background: rgb(137, 101, 194);
+color: white;
+margin-left: 10px;
+}
+p{
+font-size: 30px;
+}
+label 
+{
+color:rgb(137, 101, 194);
+}
+input
+{
+border: 1px solid rgb(137, 101, 194);
+}
+::placeholder
+{
+color: rgb(137, 101, 194);
+}
+#ing-num
+{
+margin-left: 10px;
+}
