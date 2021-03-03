@@ -29,3 +29,15 @@ $ciclo = 1;
 </table>
 </body>
 <?php       
+if($número > 10000){
+echo "<p>El limite maximo de repeticiones es de 10000" . "</p>";
+}
+else{
+while($ciclo <= $número){
+echo "<p>{$ciclo} {$nombre} " . "</p>";
+$ciclo++;
+}
+}
+?>
+</body>
+</html>
