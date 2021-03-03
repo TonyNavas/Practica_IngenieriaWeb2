@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="mis_estilos.css">
+
+<title>Document</title>
+
+</head>
+
+<body>
+<div class="cont-form">
+<form action="insertar.php" method="POST">
+
+<input type="text" name="nombre" id="nombre" placeholder="Ingresa el nombre">
+
+<input type="text" name="apellido" id="apellido" placeholder="Ingresa el apellido"> <br>
+
+<input type="text" name="edad" id="edad" placeholder="Ingresar la edad"> 
+
+<select name="sexo" id="select">
+
+<option value="" id="">Elejir</option>
+
+<option value="masculino">Masculino</option>
+
+<option value="femenino">Femenino</option>
+
+</select> <br>
+
+<input type="text" name="direccion" id="direccion" placeholder="Ingresa tu Direccion"> <br>
+<br>
+<input type="radio" name="radio" > Aceptar las cookies <br> <br>
+
+<input type="submit" id="boton1" value="enviar">
+
+</form>
+<br>
+<a href="mostrar.php">  <button id="boton2">Ver registros</button> </a>
+</div>
+
+
+</body>
+
+</html>
